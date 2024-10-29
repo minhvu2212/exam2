@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Number List</string>
+    <string name="enter_number">Nhập số nguyên dương n</string>
+    <string name="even_numbers">Số chẵn</string>
+    <string name="odd_numbers">Số lẻ</string>
+    <string name="square_numbers">Số chính phương</string>
+    <string name="show">Show</string>
+    <string name="error_empty">Vui lòng nhập số</string>
+    <string name="error_negative">Vui lòng nhập số nguyên dương</string>
+    <string name="error_invalid">Giá trị không hợp lệ</string>
+    <string name="error_select_type">Vui lòng chọn loại số</string>
+</resources>

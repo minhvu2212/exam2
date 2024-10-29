@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_number"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:autofillHints="number"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioEven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/even_numbers"
+            android:minHeight="48dp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioOdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/odd_numbers"
+            android:minHeight="48dp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioSquare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/square_numbers"
+            android:minHeight="48dp"
+            android:paddingVertical="8dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:layout_marginBottom="8dp"/>
+
+    <ListView
+        android:id="@+id/listViewNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
